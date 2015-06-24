@@ -12,7 +12,7 @@ class people::christopher_b {
   include people::christopher_b::ruby
   include people::christopher_b::vim
 
-  # Include external modules
+  # Other Modules
   include hub
   include nginx
   include osxfuse
