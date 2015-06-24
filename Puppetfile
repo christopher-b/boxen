@@ -4,7 +4,7 @@
 # default. This ensures at least the ability to construct a basic
 # environment.
 
-# Shortcut for a module from GitHub's boxen organization
+# Shortcut for a module from GitHub"s boxen organization
 def github(name, *args)
   options ||= if args.last.is_a? Hash
     args.last
@@ -23,7 +23,7 @@ end
 
 # Shortcut for a module under development
 def dev(name, *args)
-  mod "puppet-#{name}", :path => "#{ENV['HOME']}/src/boxen/puppet-#{name}"
+  mod "puppet-#{name}", :path => "#{ENV["HOME"]}/src/boxen/puppet-#{name}"
 end
 
 # Includes many of our custom types and providers, as well as global
@@ -36,7 +36,7 @@ github "boxen", "3.10.4"
 github "module_data", "0.0.3", :repo => "ripienaar/puppet-module-data"
 
 # Core modules for a basic development environment. You can replace
-# some/most of these if you want, but it's not recommended.
+# some/most of these if you want, but it"s not recommended.
 
 github "brewcask",    "0.0.6"
 github "dnsmasq",     "2.0.1"
@@ -58,10 +58,36 @@ github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
-# Optional/custom modules. There are tons available at
-# https://github.com/boxen.
-# github "elasticsearch", "2.7.2"
-# github "mysql",         "2.0.1"
-# github "postgresql",  "3.0.3"
-# github "redis",       "3.1.0"
-# github "sysctl",      "1.0.1"
+# Custom packages
+github "adium",       "1.4.0"
+github "atom",        "1.2.0"
+github "dropbox",     "1.4.1"
+github "googledrive", "1.0.2"
+github "heroku",      "2.1.1"
+github "iterm2",      "1.2.5"
+github "jmeter",      "0.1.5"
+github "mysql",       "2.1.1"
+github "onepassword", "1.1.5"
+github "osx",         "2.8.0"
+github "osxfuse",     "1.4.0"
+github "pgadmin3",    "1.0.0"
+github "redis",       "3.1.0"
+github "sequel_pro",  "1.0.1"
+github "sizeup",      "1.0.0"
+github "textual",     "4.2.0"
+github "vagrant",     "3.3.0"
+github "vim",         "1.0.5"
+github "virtualbox",  "1.0.13"
+
+# Browsers
+github "opera",   "0.3.3"
+github "chrome",  "1.2.0"
+github "firefox", "1.2.3"
+
+# PHP
+github "php",      "2.0.1"
+github "wget",     "1.0.1"
+github "autoconf", "1.0.0"
+github "libtool",  "1.0.0"
+github "libpng",   "1.0.0"
+github "pcre",     "1.0.0"

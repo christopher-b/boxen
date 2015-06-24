@@ -1,0 +1,10 @@
+---
+
+mysql::version: 5.6.25
+
+# Ruby
+ruby::global::version: "2.2.0"
+"ruby::rbenv::plugins":
+  "rbenv-bundler":
+    "ensure": "0.99"
+    "source": "carsomyr/rbenv-bundler"
