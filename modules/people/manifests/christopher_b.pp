@@ -20,6 +20,7 @@ class people::christopher_b {
 
   # Projects
   # include projects::all
+  include projects::scratch
   include projects::designjam
 
 }
