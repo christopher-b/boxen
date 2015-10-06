@@ -1,6 +1,5 @@
 server {
   listen 80;
-  user cbennell;
   root <%= @repo_dir %>/www;
   access_log <%= scope.lookupvar "nginx::config::logdir" %>/<%= @name %>.access.log main;
   server_name <%= @server_name %>;
