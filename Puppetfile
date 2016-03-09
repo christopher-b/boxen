@@ -87,7 +87,7 @@ github "chrome",  "1.2.0"
 github "firefox", "1.2.3"
 
 # PHP
-github "php",      "2.0.1", :repo => 'castiron/puppet-php'
+github "php",      "2.0.1", :repo => 'oddhill/puppet-php'
 github "wget",     "1.0.1"
 github "autoconf", "1.0.0"
 github "libtool",  "1.0.0"

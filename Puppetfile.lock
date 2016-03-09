@@ -159,11 +159,6 @@ GITHUBTARBALL
     phantomjs (3.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-php
-  specs:
-    php (2.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
   specs:
     pkgconfig (1.0.0)
@@ -227,6 +222,11 @@ GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.2.1)
+
+GITHUBTARBALL
+  remote: oddhill/puppet-php
+  specs:
+    php (2.0.1)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
