@@ -6,6 +6,6 @@ class projects::scratch {
   php::project { 'scratch':
     source => 'christopher-b/empty',
     nginx  => 'projects/shared/nginx-php.conf.erb',
-    php    => '5.6.9',
+    php    => '5.6.19',
   }
 }

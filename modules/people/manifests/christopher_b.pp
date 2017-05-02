@@ -9,7 +9,6 @@ class people::christopher_b {
   include people::christopher_b::nginx
   include people::christopher_b::nodejs
   include people::christopher_b::osx
-  # include people::christopher_b::php
   include people::christopher_b::ruby
   include people::christopher_b::vim
 
